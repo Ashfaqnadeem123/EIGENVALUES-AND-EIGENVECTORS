@@ -19,7 +19,7 @@ End the program.
 #Developed by: MOHAMMED ASHFAQ NADEEM A
 #RegisterNumber:212224230166
 import numpy as np
-A = np.array([[2,2],[1,3]])
+A = np.array([[-2,2,-3],[2,1,-6],[-1,-2,0]])
 B,C = np.linalg.eig(A)
 print(f"Eigen values are {B} and Eigen Vectors are {C}")
 ```
